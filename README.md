@@ -1,0 +1,2 @@
+# clibo
+Clipobard cumulative memorizer.
