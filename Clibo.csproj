@@ -32,6 +32,9 @@
     <Compile Include="Ui\MainFormView.cs" />
     <Compile Include="Core\AppInfo.cs" />
     <Compile Include="Ui\MainFormCore.cs" />
+    <Compile Include="Core\MacClipboard.cs" />
+    <Compile Include="Core\Clip.cs" />
+    <Compile Include="Core\Clipmac.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Core\" />

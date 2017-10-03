@@ -10,7 +10,7 @@
         /// </summary>
         public MainForm()
         {
-            this.clippy = new Clippy();
+            this.clip = Clip.Create();
             this.Build();
             this.BuildTimer();
             
@@ -26,9 +26,9 @@
             this.watchTimer = new Timer { Interval = 1000 };
 
             this.watchTimer.Tick += (o, e) => {
-                clippy.Collect();
+                this.clip.Collect();
                 
-                this.edText.Text = clippy.Text;
+                this.edText.Text = this.clip.Text;
                 this.edText.SelectionStart = this.edText.TextLength;
                 this.edText.ScrollToCaret();
             };
@@ -151,7 +151,7 @@
         /// </summary>
         private void Erase()
         {
-            this.clippy.Clear();
+            this.clip.Clear();
             this.edText.Clear();
         }
         
@@ -164,6 +164,6 @@
         }
         
         private Timer watchTimer;
-        private Clippy clippy;
+        private Clip clip;
     }
 }

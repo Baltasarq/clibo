@@ -162,6 +162,9 @@
             });
             
             this.tbBar.ResumeLayout( true );
+            this.tbBar.MaximumSize = new Size(
+                                        (int) ( imgList.ImageSize.Width * 1.5 ),
+                                        int.MaxValue );
         }
         
         private void Build()
