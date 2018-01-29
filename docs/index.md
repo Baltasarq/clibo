@@ -5,9 +5,6 @@ Clipobard cumulative memorizer. Copy all the text snippets you want, then paste 
 
 [Download last release](https://github.com/Baltasarq/Clibo/releases "Release").
 
-[Show](https://github.com/Baltasarq/Clibo/ "Clibo in GitHub") in 
-[GitHub](https://www.github.com/ "GitHub").
+[Show](https://github.com/Baltasarq/Clibo/ "Clibo in GitHub") in [GitHub](https://www.github.com/ "GitHub").
 
-&copy; 2011 [baltasarq](http://baltasarq.info/ "baltasarq home") [MIT 
-License](http://www.opensource.org/licenses/MIT "MIT License").
-
+&copy; 2017 [baltasarq](http://baltasarq.info/ "baltasarq home") [MIT License](http://www.opensource.org/licenses/MIT "MIT License").
