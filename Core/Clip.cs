@@ -30,7 +30,16 @@
         /// <param name="txt">A string with new text.</param>
         public void AppendLine(string txt)
         {
-            this.accumulator.AppendLine( txt );
+            string accText = this.accumulator.ToString().Trim();
+            string[] accLines = accText.Split( '\n' );
+            
+            if ( accText != txt
+              && accLines[ accLines.Length - 1 ] != txt )
+            {
+                this.accumulator.AppendLine( txt );
+            }
+            
+            return;
         }
         
         /// <summary>
